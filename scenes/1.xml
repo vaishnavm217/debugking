@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id351205">
+  <layers>
+    <layer id="id401178">
+      <actors>
+        <actor id="id251695" prototype="id625211">
+          <attributes>
+            <point id="position">
+              <real id="x">284</real>
+              <real id="y">162</real>
+            </point>
+            <size id="size">
+              <real id="width">69</real>
+              <real id="height">66</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">coder</image>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id890454" prototype="id546906">
+          <attributes>
+            <point id="position">
+              <real id="x">119</real>
+              <real id="y">221</real>
+            </point>
+            <size id="size">
+              <real id="width">57</real>
+              <real id="height">56</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id844977" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">1</index>
+                <real id="interval">5</real>
+                <boolean id="runToCompletion">false</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id722883" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id893760</text>
+                    <angle id="direction">0</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id207152" class="RuleBehavior" enabled="false">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <elseBehaviors>
+                    <behavior id="id175440" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">0</index>
+                        <real id="interval">5</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id465819" prototype="id546906">
+          <attributes>
+            <point id="position">
+              <real id="x">120</real>
+              <real id="y">90</real>
+            </point>
+            <size id="size">
+              <real id="width">57</real>
+              <real id="height">56</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Student Copy 1</text>
+          </attributes>
+          <behaviors>
+            <behavior id="id811751" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">1</index>
+                <real id="interval">5</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id397504" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id893760</text>
+                    <angle id="direction">0</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id122976" class="RuleBehavior" enabled="false">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <elseBehaviors>
+                    <behavior id="id945726" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">0</index>
+                        <real id="interval">5</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id612120" prototype="id546906">
+          <attributes>
+            <point id="position">
+              <real id="x">431</real>
+              <real id="y">219</real>
+            </point>
+            <size id="size">
+              <real id="width">57</real>
+              <real id="height">56</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Student Copy 2</text>
+          </attributes>
+          <behaviors>
+            <behavior id="id959337" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">1</index>
+                <real id="interval">5</real>
+                <boolean id="runToCompletion">false</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id216438" class="SpawnAction" enabled="true">
+                  <attributes>
+                    <text id="name">Spawn Actor</text>
+                    <text id="bundleName">Spawn.behavior</text>
+                    <text id="prototypeKey">id893760</text>
+                    <angle id="direction">0</angle>
+                    <index id="directionSpace">0</index>
+                    <real id="x">0</real>
+                    <real id="y">0</real>
+                    <index id="positionSpace">0</index>
+                    <index id="layerOrder">0</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id800292" class="RuleBehavior" enabled="false">
+                  <attributes>
+                    <text id="name">Rule</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <elseBehaviors>
+                    <behavior id="id890221" class="TimerBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Timer</text>
+                        <text id="bundleName">Timer.behavior</text>
+                        <index id="timerType">0</index>
+                        <real id="interval">5</real>
+                        <boolean id="runToCompletion">true</boolean>
+                      </attributes>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id416717" prototype="id546906">
+          <attributes>
+            <point id="position">
+              <real id="x">429</real>
+              <real id="y">88</real>
+            </point>
+            <size id="size">
+              <real id="width">57</real>
+              <real id="height">56</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Student Copy 3</text>
+          </attributes>
+          <behaviors>
+            <behavior id="id668412" class="LoopBehavior" enabled="true">
+              <attributes>
+                <text id="name">Loop</text>
+                <text id="bundleName">Loop.behavior</text>
+                <real id="loopType">0</real>
+                <real id="compoundConditionKind">1</real>
+                <integer id="maxLoopsPerFrame">1000</integer>
+              </attributes>
+              <behaviors>
+                <behavior id="id941112" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">random(5,10)</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id606612" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id893760</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">0</index>
+                        <real id="x">0</real>
+                        <real id="y">0</real>
+                        <index id="positionSpace">0</index>
+                        <index id="layerOrder">0</index>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id852866" class="RuleBehavior" enabled="false">
+                      <attributes>
+                        <text id="name">Rule</text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <elseBehaviors>
+                        <behavior id="id918155" class="TimerBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Timer</text>
+                            <text id="bundleName">Timer.behavior</text>
+                            <index id="timerType">0</index>
+                            <real id="interval">5</real>
+                            <boolean id="runToCompletion">true</boolean>
+                          </attributes>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id451151" prototype="id106515">
+          <attributes>
+            <point id="position">
+              <real id="x">520</real>
+              <real id="y">290</real>
+            </point>
+            <size id="size">
+              <real id="width">89</real>
+              <real id="height">52</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id503426" prototype="id299086">
+          <attributes>
+            <point id="position">
+              <real id="x">286</real>
+              <real id="y">289</real>
+            </point>
+            <size id="size">
+              <real id="width">171</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Initial Scene</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">568</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">568</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">488</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

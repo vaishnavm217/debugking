@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.5977">
+  <sounds />
+  <images>
+    <image name="teacher-clip-art-free">
+      <file name="teacher-clip-art-free.png" size="132028" />
+    </image>
+    <image name="lady-on-computer-clipart-1">
+      <file name="lady-on-computer-clipart-1.png" size="1607359" />
+    </image>
+    <image name="exclamation-clipart-1">
+      <file name="exclamation-clipart-1.png" size="6538" />
+    </image>
+    <image name="coder">
+      <file name="coder.png" size="8883" />
+    </image>
+    <image name="working">
+      <file name="working.png" size="47000" />
+    </image>
+    <image name="doubt">
+      <file name="doubt.png" size="43671" />
+    </image>
+  </images>
+  <fonts />
+  <behaviors />
+</assets>
